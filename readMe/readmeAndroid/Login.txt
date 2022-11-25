@@ -1,0 +1,39 @@
+Author			:	Salil BHATT
+Company			:	ApnaComplex 
+Parent			:	ANAROCK Group Business Services Pvt Ltd.
+Module			:	Login
+No of cases 	:	10 
+*****************************************************************************************************************************************************
+
+*Login_Tc1	:	Check user able to login with valid email id and password and check it is navigating to home screen
+*Login_Tc2		:	Check user able to login with valid phone number and password and check it is navigating to home screen
+-Login_Tc3		:	Login with email id/phone number with CAPTCHA code
+-Login_Tc4		:	User registered but not activated
+-Login_Tc5		:	Check registered user able to login with facebook ,Gmail
+-Login_Tc6		:	Check Unregistered user able to login with facebook ,Gmail
+*Login_Tc7		:	Check Visitor notification pop up is appearing when user login to enable the "Display over other apps" setting
+-Login_Tc8		:	Click on Login button when net is OFF 
+*Login_Tc9		:	Add the member from web and login in to app
+*Login_Tc10		:	Check User able to change the password after login
+
+*****************************************************************************************************************************************************
+
+Created on 22.09.2022
+
+DONE 
+Login_Tc1	//Integrated 2 || Integrated 7 || Integrated 9
+Login_Tc8	// Explicit Case we need to turn off INTERNET 
+Login_Tc10
+
+NOT APPLICABLE FOR AUTOMATION 
+Login_Tc3	//CAPTCHA required 
+Login_Tc4	//OTP required 
+Login_Tc5	//google fb Oauth API required 
+Login_Tc6	//google fb Oauth API required 
+
+##FRAMEWORK DESIGN DONE 
+
+*****************************************************************************************************************************************************
+
+UPDATES 
+Known issues : working on turning off and on WI-FI

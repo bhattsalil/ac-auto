@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ApnaComplex-IOS-Login-Automation-Test">
+	<listeners>
+			<listener class-name= "org.ac.testUtils.Listeners"/>
+ 	</listeners >
+  		<test name="Login">
+    		<classes>
+      			<class name="org.ac.ios.IOSLogin">
+      				<methods>
+				      <include name =  "IOS_Login_Tc1_Valid_Login_With_MailAndPhone"/> 
+				      <include name =  "IOSLogin_Tc10_ChangePassword"/>
+				      <include name =  "IOS_Login_Tc8_LoginWithNoInternet"/>
+				      <include name =  "IOS_Login_Tc11_DeleteUser"/>
+       				</methods>
+      			</class>
+    		</classes>
+  		</test> 
+</suite> 

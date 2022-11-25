@@ -1,0 +1,71 @@
+Author				:	Salil BHATT
+Company				:	ApnaComplex 
+Parent				:	ANAROCK Group Business Services Pvt Ltd.
+Module				:	Login
+No of cases 		:	26 
+*****************************************************************************************************************************************************
+
+NoticeBoard_Tc1		:	Check the current notices and pending for approval/expired notices are appearing for community admin/Notice board admin
+NoticeBoard_Tc2		:	Check all the pending for approval notices are appearign in For approval screen
+NoticeBoard_Tc3		:	Check admin able to view pending for approval notices and expired notices if there are no current notices in the community
+NoticeBoard_Tc4		:	Check all the  jpeg/pdf/word/excel attachments are appearing in approve notice pop up screen
+NoticeBoard_Tc5		:	Approve the notice which have attachments and check respective members receving push notification and mails
+NoticeBoard_Tc6		:	Check description is shown fully if pending for approval notice have long description in for approval list screen
+NoticeBoard_Tc7		:	Approve the notice which have html format/tabular format/differentfont stylescheck app should not crash once admin approve the notice
+NoticeBoard_Tc8		:	Reject the notice and check notice rejected successfully
+NoticeBoard_Tc9		:	Approve the notice by changing the expiry data and check the expired date in web
+NoticeBoard_Tc10	:	Approve the notice by changing visible to owners/Residents/Committe memebrs/tenants
+NoticeBoard_Tc11	:	Edit the date  to current/future date for expired notice and check expired notice is appearing is disappeared in expired notice screen
+NoticeBoard_Tc12	:	Edit the date for expired notice and check expired notice is appearing in current notice screen
+NoticeBoard_Tc13	:	Edit the date for expired notice which have attachemnts and check attachments appearing correctly in edit notice screen
+NoticeBoard_Tc14	:	Edit the visible to owners/residents/tenants/committe members  and date for expired notice and check notice is appearing in current notice screen for respective members
+NoticeBoard_Tc15	:	Check admin able to delete the notice
+NoticeBoard_Tc16	:	Check search button is appearing in current notices screen
+NoticeBoard_Tc17	:	Search the current notice with community admin/Notice board admin and check it is showing correct data or not
+NoticeBoard_Tc18	:	Search the expired notice with community admin/Notice board admin  and check it is showing correct data or not
+NoticeBoard_Tc19	:	Search the pending approval notice community admin/Notice board admin  and check it is showing correct data or not
+NoticeBoard_Tc20	:	Search the notice before loading the data
+NoticeBoard_Tc21	:	Search the current notice with member
+NoticeBoard_Tc22	:	Search the pending for approval with member
+NoticeBoard_Tc23	:	Check entered suggestion text is apeparing when clicking on search icon
+NoticeBoard_Tc24	:	Click on notice push notification and check it is navigating respective details pop up screen
+NoticeBoard_Tc25	:	check by clciking on push notification,it is navigating to respective screen if user in other complex and received notification of other complex
+NoticeBoard_Tc26	:	Post the notice from web with multiple break lines and check whether app showing single break line in notice list screen
+NoticeBoard_Tc27	:	Reserved
+NoticeBoard_Tc28	:	Reserved
+NoticeBoard_Tc29	:	Reserved
+NoticeBoard_Tc30	:	Reserved
+
+*****************************************************************************************************************************************************
+
+Created on 23.09.2022 - 29.09.2022
+
+DONE 
+
+NoticeBoard_Tc1			// Tc2, Tc3, Tc4 are integrated with NoticeBoard_Tc1
+NoticeBoard_Tc6			// Tc5, Tc7, Tc9, Tc10 	integrated with NoticeBoard_Tc6
+NoticeBoard_Tc8			// completed 
+NoticeBoard_Tc15		// completed
+
+
+NOT APPLICABLE FOR AUTOMATION
+NoticeBoard_Tc24		// Push notifications leads to another application 
+NoticeBoard_Tc25		// Push notifications leads to another application
+NoticeBoard_Tc26		// Web Involved
+
+
+SKIPPED (Marked as red in use cases)
+NoticeBoard_Tc16
+NoticeBoard_Tc17
+NoticeBoard_Tc18
+NoticeBoard_Tc19
+NoticeBoard_Tc20
+NoticeBoard_Tc21
+NoticeBoard_Tc22
+NoticeBoard_Tc23
+
+
+*****************************************************************************************************************************************************
+
+
+

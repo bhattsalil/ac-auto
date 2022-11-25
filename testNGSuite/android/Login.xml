@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ApnaComplex-ANDROID-Login-Automation-Test">
+	<listeners>
+			<listener class-name= "org.ac.testUtils.Listeners" />
+ 	</listeners >
+  		<test name="Login">
+    		<classes>
+      			<class name="org.ac.android.Login">
+      				<methods>
+				      <include name =  "Android_Login_Tc1_Valid_Login_With_MailAndPhone"/>
+				      <include name =  "Android_Login_Tc10_ChangePassword"/>
+				      <include name =  "Android_Login_Tc8_LoginWithNoInternet"/>
+       				</methods>
+      			</class>
+    		</classes>
+  		</test> 
+</suite> 
