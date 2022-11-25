@@ -1,0 +1,29 @@
+[
+    
+{
+    "email"         :"salil.bhatt+admin@eukleiatech.com",
+    "emailMember"   :"salil.bhatt+member@eukleiatech.com",
+    "emailNba"      :"salil.bhatt+nba@eukleiatech.com",
+    "emailDelete"   :"salil.bhatt+delete@eukleiatech.com",
+    "phone"         :"9784405656",
+    "pass"          :"1234",
+    "noticeSub"     :"|Automation Test|",
+    "noticeDesc"    :"This notice was generated at - ",
+    "noticeDecline" :"Testing Decline notice functionality",
+    "_comment1"     :"Select any  out of D1 | D7 | D15 | D30",
+    "noticeExp"     :"D1",
+    "-comment2"     :"Select any one  out of  camera | gallery | document",
+    "attach"        :"gallery",
+    "-comment3"     :"Select any one  out of  ten | cmem | res | own | mem",
+    "visible"       :"mem",
+    "declineComment":"Sorry Admin Has Reject your Notice",
+    "reject"        :"reject",
+    "delete"        :"yes",
+    "_comment4"     :"txt contains date time event of last edited date",
+    "txt"           :"Yesterday, 11:12 am",
+    "calanderDate":"//android.view.View[@content-desc=\"03 November 2022\"]",
+    "calanderYear":"//android.widget.TextView[@text = \"2022\"]"
+    
+}
+    
+]
